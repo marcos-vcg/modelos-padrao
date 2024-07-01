@@ -1,0 +1,20 @@
+# https://www.robotstxt.org/robotstxt.html
+
+# Para melhorar o SEO - Otimização dos Mecanismos de Busca 
+# Apenas um Pedido aos robos de busca para limitar a indexação de certas paginas
+# Qualquer um pode acessar através de site.com/Robots.txt
+# Cuidado ao pedir para não listar certos diretorios e deixar eles expostos
+
+# User-agent: * -> Applebot, baiduspider, Bingbot, Googlebot, Googlebot-Image, Twitterbot, Yandex, Yeti, msnbot
+# Disallow: Tentar evitar esses diretorios para indexação de busca
+# Allow: / -> Tentar indicar esses diretorios para indexação de busca
+# Sitemap: https://site.com/sitemap.xml
+# Cadastrar o arquivo sitemap.xml no google
+
+# To exclude all robots from the entire server
+# User-agent: *
+# Disallow: /
+
+# To allow all robots complete access
+User-agent: *
+Disallow:
