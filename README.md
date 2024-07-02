@@ -1,9 +1,11 @@
-# PROJETO
-Projeto criado para isso...
+# PROJECT: NAME
+> This app is a...
 
-## 🖥️ Sobre o projeto
+## 🖥️ About the Project
 
-O aplicativo serve para... 
+- This app was created to... 
+
+- With this project it is possible...
 
 
 ## 🖼️ Layout
@@ -16,22 +18,55 @@ O aplicativo serve para...
 
 
 ## 🌎 BUILD & RUN
-* Instalar as Dependências: 
+* Install Dependences: 
 
       npm install
 
-* Rodar o Projeto: 
+* Run Project: 
 
       npx expo start
 
 
+To run this Node.js application in [VS Code][] follow this streps:
+1. Install Node 20 or later. You can use the [package manager][] of your choice.
+   Tests need to pass in Node 20 and 22.
+2. Clone this repository.
+3. Run `npm install` to install the dependencies.
+4. Run `npm start` to start the badge server and the frontend dev server.
+5. Open `http://localhost:3000/` to view the frontend.
 
-## 🛠 Tecnologias 
+
+[package manager]: https://nodejs.org/en/download/package-manager/
+[vs code]: https://code.visualstudio.com/
+
+
+
+## Getting Started
+
+Welcome to your new project.
+
+It contains these folders and files, following our recommended project layout:
+
+File or Folder | Purpose
+---------|----------
+`app/` | Content for UI frontends goes here
+`db/` | Domain models and data go here
+`srv/` | Service models and code go here
+`package.json` | Project metadata and configuration
+`README.md` | This getting started 
+`LICENSE` | The project licence
+
+
+
+## 🛠 Technologies 
 
 Projeto criado usando as seguintes tecnologias:
-* React Native, 
-* Typescript, 
+* React Native 
+<img src="https://img.shields.io/badge/React_Native-1.2.3-blue">
+* TypeScript 
+<img src="https://img.shields.io/badge/TypeScript-1.2.3-blue">
 * TailwindCSS
+<img src="https://img.shields.io/badge/TailwindCSS-1.2.3-blue">
 
 As seguintes ferramentas serão usadas para desenvolver o projeto:
 
