@@ -17,6 +17,24 @@
 - [x] DESKTOP
 
 
+
+## First Steps
+
+To run this Node.js application in [VS Code][] follow this streps:
+
+  1. Install Node 20 or later to run and pass the Tests. You can use the [package manager][] of your choice.   
+  2. Clone this repository.
+  3. Run `npm install` to install the dependencies.
+  4. Run `npm start` to start the server and the frontend dev server.
+  5. Open `http://localhost:3000/` to view the frontend.
+
+
+[package manager]: https://nodejs.org/en/download/package-manager/
+[vs code]: https://code.visualstudio.com/
+
+
+
+
 ## 🌎 BUILD & RUN
 * Install Dependences: 
 
@@ -26,18 +44,6 @@
 
       npx expo start
 
-
-To run this Node.js application in [VS Code][] follow this streps:
-1. Install Node 20 or later. You can use the [package manager][] of your choice.
-   Tests need to pass in Node 20 and 22.
-2. Clone this repository.
-3. Run `npm install` to install the dependencies.
-4. Run `npm start` to start the badge server and the frontend dev server.
-5. Open `http://localhost:3000/` to view the frontend.
-
-
-[package manager]: https://nodejs.org/en/download/package-manager/
-[vs code]: https://code.visualstudio.com/
 
 
 
@@ -60,7 +66,7 @@ File or Folder | Purpose
 
 ## 🛠 Technologies 
 
-Projeto criado usando as seguintes tecnologias:
+Project created using the following specific versions of these technologies:
 * React Native 
 <img src="https://img.shields.io/badge/React_Native-1.2.3-blue">
 * TypeScript 
@@ -68,10 +74,12 @@ Projeto criado usando as seguintes tecnologias:
 * TailwindCSS
 <img src="https://img.shields.io/badge/TailwindCSS-1.2.3-blue">
 
-As seguintes ferramentas serão usadas para desenvolver o projeto:
+
+The following tools will be used to develop the project:
+
 
 ### Front End
-Linguagem | Ícone  | Used
+Language | Icon  | Used
 :--------- | :---:  | :-----:
 *JavaScript* | <img align="center" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>  | ✔️
 *TypeScript* | <img align="center" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>  | ✔️
@@ -84,26 +92,33 @@ Linguagem | Ícone  | Used
 *NPM* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"/> | ✔️
 *Vite* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"/> | ✔️
  
+
 ### Back End:
-Linguagem | Ícone | Used
+Language | Icon | Used
 :--------- | :---: | :---:
 *Node* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"/> | ✔️
 *Java* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"/> | ✔️
 *Spring* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"/> | ✔️
 *Express* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"/> | ✔️
+*MySQL* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"/> | ✔️
+*PostgreSQL* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"/> | ✔️
 *MongoDB* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"/> | ✔️
 *Mongoose* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original.svg"/> | ✔️
-          
-### Ambiente de Desenvolvimento:
-Ferramenta | Ícone | Used
+
+
+### Development Environment:
+Tool | Icon | Used
 :--------- | :---: | :---:
 *VS Code* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg"/> | ✔️
+*Intelij IDEA* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg"/> | ✔️
 *Postman* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"/> | ✔️
+*Insomnia* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg"/> | ✔️
+*DBeaver* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg"/> | ✔️
 *Canva* | <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"/> | ✔️
 
 
 
-## 👨‍🎓 Desenvolvedor
+## 👨‍🎓 Developer
 
 - <a href="https://www.linkedin.com/in/mvcg/">Marcos Costa</a>
 
@@ -114,9 +129,9 @@ Ferramenta | Ícone | Used
 
 
 
-## 📝 Licença
+## 📝 License
 
-Este projeto esta sobre a LICENÇA:
+This project is under LICENSE:
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/marcos-vcg/prepare-se/blob/master/LICENSE)
 
