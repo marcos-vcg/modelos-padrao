@@ -1,0 +1,32 @@
+name: Continous Integration
+
+# ON -> Gatilho/Evento que dispara a execução do Workflow e inicia os JOBS
+# on: pull_request
+# on: [pull_request, push, issues, issue_comment]
+# on: 
+#   pull_request: 
+#     branches: ["*", 'main','staging', 'develop', 'test']
+on: 
+  push: 
+    branches: ["staging"]
+
+# JOBS -> Trabalhos que serão executados em paralelo pelo github actions em uma máquina virtual
+# STEPS -> Etapas de um JOB, são executadas em série (sequencia)
+jobs:
+  continous-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Using Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: run install, build and test
+        run: |
+          npm install
+          npm build
+          npm test
+          
+# npm intall -> Sobe as versões se estiverem desatualizadas no "package.json"
+# npm ci -> Instala exatamente a mesma versão do "package.json"
+# Fazer o commit e push normalmente e o github já vai detectar o workflow
